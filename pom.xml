@@ -11,6 +11,14 @@
   <name>devops_minor</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
+  
+  <distributionManagement>
+  <snapshotRepository>
+    <id>minor_devops</id>
+    <name>minor_devops</name>
+    <url>http://localhost:8081/repository/minor_devops/</url>
+ </snapshotRepository>
+</distributionManagement>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
